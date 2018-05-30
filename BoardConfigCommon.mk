@@ -153,8 +153,6 @@ TARGET_NEEDS_TEXT_RELOCATIONS          := true
 TARGET_GPS_HAL_PATH                    := device/samsung/fortunaxx-common/gps
 BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET  := true
 
-# CMHW
-BOARD_HARDWARE_CLASS                 += $(LOCAL_PATH)/cmhw
 
 # Workaround to avoid issues with legacy liblights on QCOM platforms
 TARGET_PROVIDES_LIBLIGHT              := true
